@@ -24,4 +24,7 @@ class Artist
   def self.destroy_all
     @@all.clear
   end
+
+  def add_song(name)
+    Song.new(name, self)
 end
