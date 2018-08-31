@@ -7,8 +7,8 @@ class Song
     self.name = name
   end
 
-  def method_name
-
+  def self.create(name)
+    self.new(name).save
   end
 
   def self.all
