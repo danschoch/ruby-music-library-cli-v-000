@@ -7,7 +7,7 @@ class Song
     self.name = name
   end
 
-  def self.create(name)
+  def create(name)
     self.new(name).save
   end
 
